@@ -1,5 +1,3 @@
-import React from "react";
-
 const allBadges = [
     { id: 1, name: "Consistency", description: "Complete 10 workouts total." },
     { id: 2, name: "Streak", description: "Complete one workout a day for 7 days in a row." },
@@ -10,6 +8,7 @@ const Dashboard = () => {
 
     return (
         <div id="dash-all">
+            <h1>Dashboard</h1>
             <div id="badges-div">
                 {allBadges.map(badge => (
                     <div id="badge-individual">
@@ -22,7 +21,7 @@ const Dashboard = () => {
 
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Dashboard;
