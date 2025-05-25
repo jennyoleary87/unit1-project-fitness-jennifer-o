@@ -1,8 +1,14 @@
+import './Footer.css'
+
+
 const Footer = () => {
     return (
-        <div>
-            <p>Fitness App 2025</p>
-        </div>
+        <footer>
+            <div>
+                <p>FitFlow Fitness App 2025</p>
+            </div>
+        </footer>
+
     )
 }
 

@@ -2,3 +2,12 @@
   border: 3px solid gainsboro;
 
 }
+
+@media screen and (max-width: 800px) {
+
+  .left,
+  .main,
+  .right {
+    width: 100%;
+  }
+}

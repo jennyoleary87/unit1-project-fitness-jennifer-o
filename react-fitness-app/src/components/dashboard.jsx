@@ -18,7 +18,6 @@ const Dashboard = () => {
                 ))}
             </div>
             <div id="stats-div">
-
             </div>
         </div>
     );

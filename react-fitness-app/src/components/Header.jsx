@@ -1,21 +1,32 @@
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import logo from '../images/logo.png';
+import './Header.css'
 
 const Header = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <header>
-            <h1>Fitness App</h1>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/dashboard">Dashboard</Link></li>
-                    <li><Link to="/timer">Timer</Link></li>
-                    <li><Link to="/history">History</Link></li>
-                    <li><Link to="/about">About</Link></li>
+            <nav className="navbar">
+                <Link to="/" className="home-link"><img src={logo} /></Link>
+                <div className="hamburger" onClick={() => { setIsOpen(!isOpen); }}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul className={isOpen ? "open" : ""}>
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+                    <li><NavLink to="/timer">Timer</NavLink></li>
+                    <li><NavLink to="/history">History</NavLink></li>
+                    <li><NavLink to="/about">About</NavLink></li>
                 </ul>
-            </nav>
+            </nav >
         </header>
-    );
 
+    );
 };
 
 export default Header;

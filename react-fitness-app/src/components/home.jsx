@@ -1,24 +1,16 @@
-import { Link } from 'react-router';
 
 const Home = () => {
 
     // const { home } = useParams();
 
     return (
-        // <main>
-        <div>
-            <h1>Welcome to FitTimer</h1>
-            <p>Your personal workout companion for effective interval training</p>
+        <main>
             <div>
-                <Link to="/timer">
-                    {/* <Button>Start Workout</Button> */}
-                </Link>
-                <Link to="/dashboard">
-                    {/* <Button>View Dashboard</Button> */}
-                </Link>
+                <h1>Welcome to FitFlow</h1>
+                <p>Checkout your workout history and milestones on the personal dashboard.</p>
+                <p></p>
             </div>
-        </div>
-        // </main>
+        </main>
     );
 };
 
