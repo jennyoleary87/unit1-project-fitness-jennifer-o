@@ -2,7 +2,11 @@
 
 const History = () => {
     return (
-        <div></div>
+        <div>
+            <p>
+                UNDER CONSTRUCTION
+            </p>
+        </div>
     );
 };
 

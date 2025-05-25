@@ -1,5 +1,9 @@
+import Button from './button';
+import { useState, useEffect } from 'react';
+
 
 const IntervalTimer = () => {
+
 
     return (
         <div>
@@ -16,8 +20,8 @@ const IntervalTimer = () => {
                 <label>number of sets:</label>
                 <input className="form-label" type="number" />
             </form>
+            <Button color="red" label="Start Timer">Begin</Button>
         </div>
-
     );
 };
 
