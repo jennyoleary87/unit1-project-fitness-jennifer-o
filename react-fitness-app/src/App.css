@@ -122,3 +122,15 @@ footer {
   left: 0;
   width: 100%;
 }
+
+/* HISTORY */
+
+#history-block {
+  display: grid;
+  border-style: double;
+  padding: 50px;
+  border-color: #EF7674;
+  width: fit-content;
+}
+
+/* TIMER */
