@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
 import Dashboard from './components/dashboard';
 import IntervalTimer from './components/timer';
 import Header from './components/Header';
@@ -12,21 +12,21 @@ function App() {
 
   return (
     <>
-      <Router>
+      <HashRouter>
         <div>
           <Header />
           <main>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/timer" element={<IntervalTimer />} />
-              <Route path="/history" element={<History />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/unit1-project-fitness-jennifer-o/" element={<Home />} />
+              <Route path="/unit1-project-fitness-jennifer-o/dashboard" element={<Dashboard />} />
+              <Route path="/unit1-project-fitness-jennifer-o/timer" element={<IntervalTimer />} />
+              <Route path="/unit1-project-fitness-jennifer-o/history" element={<History />} />
+              <Route path="/unit1-project-fitness-jennifer-o/about" element={<About />} />
             </Routes>
           </main>
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     </>
   );
 }
