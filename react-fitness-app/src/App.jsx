@@ -1,6 +1,5 @@
 import './App.css'
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Dashboard from './components/dashboard';
 import IntervalTimer from './components/timer';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -18,7 +17,6 @@ function App() {
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/timer" element={<IntervalTimer />} />
               <Route path="/history" element={<History />} />
               <Route path="/about" element={<About />} />

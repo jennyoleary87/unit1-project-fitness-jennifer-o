@@ -1,8 +1,6 @@
 
 const Home = () => {
 
-    // const { home } = useParams();
-
     return (
         <main>
             <div>

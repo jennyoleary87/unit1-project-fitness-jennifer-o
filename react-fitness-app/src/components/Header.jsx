@@ -17,14 +17,12 @@ const Header = () => {
                 </div>
                 <ul className={isOpen ? "open" : ""}>
                     <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/dashboard">Dashboard</NavLink></li>
                     <li><NavLink to="/timer">Timer</NavLink></li>
                     <li><NavLink to="/history">History</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
                 </ul>
             </nav >
         </header>
-
     );
 };
 
