@@ -20,8 +20,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/timer" element={<IntervalTimer />} />
-              <Route path="/unit1-project-fitness-jennifer-o/history" element={<History />} />
-              <Route path="/unit1-project-fitness-jennifer-o/about" element={<About />} />
+              <Route path="/history" element={<History />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </main>
           <Footer />
