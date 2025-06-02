@@ -318,7 +318,7 @@ const IntervalTimer = () => {
                             </td>
 
                             <td>
-                                <div>
+                                <div id="burst-buttons">
                                     <Button
                                         onClick={() => moveBurst(index, 'up')}
                                         disabled={index === 0}
@@ -353,12 +353,12 @@ const IntervalTimer = () => {
     }
 
     return (
-        <div>
+        <div id="timer-div">
             {workoutStarted ? ( // conditional rendering
                 <div>
                     <h1>{workoutName || "Workout in Progress"}</h1>
 
-                    <div>
+                    <div id="running-details">
                         <p>
                             Set {currentSet} of {sets}
                         </p>
@@ -370,7 +370,7 @@ const IntervalTimer = () => {
                         </p>
                     </div>
 
-                    <div>
+                    <div id="running-buttons">
                         <Button onClick={togglePause} label={isRunning ? 'Pause' : 'Resume'} />
                         <Button onClick={endWorkout} label="End Workout" />
                     </div>

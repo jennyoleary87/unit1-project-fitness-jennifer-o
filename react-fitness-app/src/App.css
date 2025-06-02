@@ -205,6 +205,24 @@ footer {
 
 /* ===== TIMER ===== */
 
+#timer-div {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+#running-details,
+#running-buttons {
+  text-align: center;
+}
+
+#running-buttons Button {
+  margin: 0 5px 0 5px;
+
+}
+
+#burst-buttons Button {
+  margin: 0 5px 0 5px;
+}
 
 
 /* ===== HOME ===== */

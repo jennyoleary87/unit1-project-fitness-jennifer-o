@@ -9,7 +9,8 @@ const Header = () => {
     return (
         <header>
             <nav className="navbar">
-                <Link to="/" className="home-link"><img src={logo} /></Link>
+                <Link to="/" className="home-link"><img src={logo}
+                    alt="Two dumbbells create an x shape in the center. The outer circle says FitFlow rounded above the dumbbells, and Fitness App rounded below the dumbbells." /></Link>
                 <div className="hamburger" onClick={() => { setIsOpen(!isOpen); }}>
                     <span></span>
                     <span></span>

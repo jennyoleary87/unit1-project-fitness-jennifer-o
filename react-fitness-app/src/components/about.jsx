@@ -9,7 +9,6 @@ const About = () => {
                 This app is currently in its MVP stage as a Unit 1 LaunchCode Project.
                 This web application showcases what we have learned so far regarding HTML, CSS, JavaScript, the DOM, and React.
 
-
                 <br /><br />
                 FitFlow plans to implement future features including:
             </p>
