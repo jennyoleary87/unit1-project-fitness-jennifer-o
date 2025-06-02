@@ -395,7 +395,6 @@ const IntervalTimer = () => {
                         <List
                             items={bursts}
                             renderItem={renderBurstItem}
-                            emptyMessage="No bursts added yet"
                         />
                         <Button onClick={addBurst} label="Add Burst" />
                     </div>

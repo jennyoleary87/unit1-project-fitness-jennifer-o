@@ -3,10 +3,15 @@ const Home = () => {
 
     return (
         <main>
-            <div>
+            <div className="home-div">
                 <h1>Welcome to FitFlow</h1>
-                <p>Checkout your workout history and milestones on the personal dashboard.</p>
-                <p></p>
+                <p>
+                    Customize interval timers on the Timer page.
+                    <br /><br />
+                    Once a workout has ended, it will be added to the History page.
+                    <br /><br />
+                    Checkout FitFlows future plans on the About page!
+                </p>
             </div>
         </main>
     );

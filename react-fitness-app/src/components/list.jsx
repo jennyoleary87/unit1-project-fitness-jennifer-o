@@ -8,11 +8,6 @@ const List = ({ items, renderItem }) => {
             return <p>Error: Invalid data provided to list</p>;
         }
 
-        // handle empty message
-        if (items.length === 0 && emptyMessage) {
-            return <div className="empty-message">{emptyMessage}</div>;
-        }
-
         return (
             <div>
                 {items.map((item, index) => (

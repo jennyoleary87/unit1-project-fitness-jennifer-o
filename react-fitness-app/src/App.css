@@ -9,24 +9,24 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-size: larger;
 }
 
 body {
   padding-bottom: 2.5rem;
 }
 
+h1,
+h2 {
+  text-align: center;
+}
 
 @media screen and (max-width: 800px) {
 
-  .left,
-  .main,
-  .right {
+  .main {
     width: 100%;
   }
 }
-
-
-
 
 /* ===== HEADER NAVIGATION ===== */
 
@@ -143,6 +143,7 @@ footer {
   height: 2.5rem;
   z-index: 100;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 
@@ -152,9 +153,7 @@ footer {
 /* ===== HISTORY ===== */
 
 .history-container {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
+  width: 100%;
   text-align: center;
 }
 
@@ -169,30 +168,26 @@ footer {
   padding: 20px;
   border: 1px solid #C42348;
   width: 100%;
-  max-width: 600px;
-  margin: 5px;
+  margin: 0 auto 5px auto;
 }
 
 .workout-date {
-  margin: 8px;
-}
-
-.workout-sets {
-  margin: 15px;
+  margin: 40px;
 }
 
 .workout-item span {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px;
   border-radius: 20px;
   margin-top: 15px;
   background-color: #EF7674;
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .history-container {
     padding: 15px;
+    align-content: center;
   }
 
   .history-container h1 {
@@ -212,9 +207,28 @@ footer {
 
 
 
+/* ===== HOME ===== */
+.home-div {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
 /* ===== ABOUT ===== */
+
+.about-div {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+#future-list {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  font-size: medium;
+}
+
 #future-list li {
   list-style: "\1F338";
+  padding-bottom: 5px;
 }
 
 
